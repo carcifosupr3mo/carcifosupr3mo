@@ -16,9 +16,9 @@
 ## About
 
 - Training as an IT specialist (**CPT Locarno**), working on infrastructure and systems.
-- Most of what I know comes from running things end to end: provisioning containers, reverse proxying, TLS, databases, backups, cron, monitoring, and fixing them when they break at 23:00.
-- Two of my services run in production with real users on them, which is a very effective teacher about backups and about not breaking things at 22:00 on a Friday.
-- Currently working through the **Cisco Networking Academy CCNA** track (CCNA 1 → 3).
+- Most of what I know comes from running things end to end: provisioning containers, reverse proxying, TLS, databases, backups, cron, monitoring, and fixing them when they break.
+- Two of my services run in production with real users on them, which is a very effective teacher about backups.
+
 
 ## Tech
 
