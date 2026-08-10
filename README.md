@@ -114,3 +114,5 @@ Proxmox host running the containers above plus a Piwigo gallery. Scheduled maint
 ### 📜 Certificati
 
 * [Visualizza il certificato di Networking Basics](./NetworkingBasicsUpdate20260810-20-d858r1.pdf)
+* [Visualizza il Certificato 1](./certificate-jquor9nwhfdp-1786355391.pdf)
+* [Visualizza il Certificato 2](./certificate-fap3fiphc2ja-1786359350.pdf)
