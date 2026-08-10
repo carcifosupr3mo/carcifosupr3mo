@@ -1,0 +1,43 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 2
+            --timeout 20
+            --accept 200,206,429
+            "**/*.md"
+          fail: false
+          output: lychee-report.md
+
+      - name: Open an issue if something is broken
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Link rotti nel README del profilo"
+          content-filepath: lychee-report.md
+          labels: automated
