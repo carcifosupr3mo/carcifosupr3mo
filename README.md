@@ -111,8 +111,6 @@ Proxmox host running the containers above plus a Piwigo gallery. Scheduled maint
 
 > Repositories for these are being published progressively. Infrastructure details, internal addressing and credentials stay private.
 
-## Goals
+### 📜 Certificati
 
-- Finish the CCNA 1–3 track and consolidate the networking fundamentals.
-- Move the homelab services to reproducible, versioned deployments (Compose + CI).
-- Publish clean, documented repositories rather than many half-finished ones.
+* [Visualizza il certificato di Networking Basics](./NetworkingBasicsUpdate20260810-20-d858r1.pdf)
