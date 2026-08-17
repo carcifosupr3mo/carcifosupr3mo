@@ -110,9 +110,3 @@ Proxmox host running the containers above plus a Piwigo gallery. Scheduled maint
 `Proxmox` · `Bash` · `cron` · `Python`
 
 > Repositories for these are being published progressively. Infrastructure details, internal addressing and credentials stay private.
-
-### 📜 Certificati
-
-* [Visualizza il Certificato di Networking Basics](./NetworkingBasicsUpdate20260810-20-d858r1.pdf)
-* [Visualizza il Certificato Claude Code in Action](./certificate-jquor9nwhfdp-1786355391.pdf)
-* [Visualizza il Certificato Claude 101](./certificate-fap3fiphc2ja-1786359350.pdf)
