@@ -27,8 +27,6 @@
 
 `Proxmox` · `Docker` · `LXC` · `Nginx` · `Caddy`
 
-**Currently learning:** CCNA 1–3 (routing, switching, subnetting) · Docker Compose in production · CI/CD with GitHub Actions · PostgreSQL tuning & backup strategy
-
 ## Selected projects
 
 ### Photocarcifo — [photocarcifo.ch](https://photocarcifo.ch)
