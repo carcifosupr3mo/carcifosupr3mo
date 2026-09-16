@@ -29,7 +29,7 @@
 
 ## Selected projects
 
-### [https://github.com/carcifosupr3mo/photocarcifo](Photocarcifo) — [photocarcifo.ch](https://photocarcifo.ch)
+### [PHOTOCARCIFO](https://github.com/carcifosupr3mo/photocarcifo) — [photocarcifo.ch](https://photocarcifo.ch)
 
 Self-hosted photography portfolio and client gallery, in production with real clients.
 
