@@ -59,24 +59,8 @@ Inventory and print-history system for a Bambu Lab P1S with AMS, built to replac
 
 `FastAPI` · `PostgreSQL` · `Docker` · `MQTT` · `FTPS` · `Tabulator.js`
 
-### Meteo Arbedo-Castione — [meteo.photocarcifo.ch](https://meteo.photocarcifo.ch)
-
-Self-hosted weather dashboard: MeteoSwiss/Open-Meteo ingestion, automatic storm detection, historical archive with JWT-protected API, webcam timeline, web push and Telegram notifications, PWA build.
-
-`FastAPI` · `PostgreSQL` · `Apache` · `Proxmox LXC`
-
 ### Homelab & automation
 
 Proxmox host running the containers above, plus a Piwigo gallery. Scheduled maintenance and update scripts, TLS termination, fail2ban, monitored backups. Alongside it: multithreaded host discovery over a home network in Python (ping with ARP fallback and TTL parsing), and smaller file-management tooling.
 
 `Proxmox` · `Bash` · `cron` · `Python`
-
-> Repositories for these are being published progressively. Infrastructure details, internal addressing and credentials stay private.
-
-## Contribution snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/carcifosupr3mo/carcifosupr3mo/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/carcifosupr3mo/carcifosupr3mo/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/carcifosupr3mo/carcifosupr3mo/output/github-contribution-grid-snake.svg" />
-</picture>
